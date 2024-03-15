@@ -28,6 +28,11 @@ an ERD.png file and a table schema (crowdfunding_db_schema.sql) executed with SQ
   ![image](https://github.com/tonycota/Crowdfunding_ETL/assets/150317761/9eb0c56f-a979-4385-8562-67d5eab52afe)
 
 
+## Sources of Data ##
+* contacts.xlsx
+* crowdfunding.xlsx
+
+
 ## Instructions ## 
 The instructions for this mini project are divided into the following subsections:
 * Create the Category and Subcategory DataFrames
@@ -95,7 +100,3 @@ The instructions for this mini project are divided into the following subsection
 6. Verify the table creation by running a SELECT statement for each table.
 7. Import each CSV file into its corresponding SQL table.
 8. Verify that each table has the correct data by running a SELECT statement for each.
-
-## Sources of Data ##
-* contacts.xlsx
-* crowdfunding.xlsx
