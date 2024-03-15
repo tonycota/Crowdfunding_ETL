@@ -8,17 +8,23 @@ an ERD.png file and a table schema (crowdfunding_db_schema.sql) executed with SQ
 
 ## Databases Created ##
 1. Category DataFrame
+
    ![image](https://github.com/tonycota/Crowdfunding_ETL/assets/150317761/a5e18ab3-64f8-4672-b06a-fc62768957ba)
 
 3. Subcategory DataFrame
+   
    ![image](https://github.com/tonycota/Crowdfunding_ETL/assets/150317761/04b6f26a-84b5-4e29-94a2-e9095e1357dc)
 
 5. Campaign DataFrame
+   
    ![image](https://github.com/tonycota/Crowdfunding_ETL/assets/150317761/ec607e9b-8525-4484-9f9c-bb0ba1078396)
-6. Contacts DataFrame
+
+7. Contacts DataFrame
+   
    ![image](https://github.com/tonycota/Crowdfunding_ETL/assets/150317761/689da3a1-f847-4a17-9cdc-d8ce1caace04)
 
 * ERD
+  
   ![image](https://github.com/tonycota/Crowdfunding_ETL/assets/150317761/9eb0c56f-a979-4385-8562-67d5eab52afe)
 
 
