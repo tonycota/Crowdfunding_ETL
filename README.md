@@ -23,7 +23,7 @@ an ERD.png file and a table schema (crowdfunding_db_schema.sql) executed with SQ
    
    ![image](https://github.com/tonycota/Crowdfunding_ETL/assets/150317761/689da3a1-f847-4a17-9cdc-d8ce1caace04)
 
-* ERD (reference used to create Crowdfunding Database by creating table schema in pgAdmin)
+* ERD (reference used to construct Crowdfunding Database by creating table schema in pgAdmin)
   
   ![image](https://github.com/tonycota/Crowdfunding_ETL/assets/150317761/c089d5e6-1ea3-44a5-9d5c-f31a4907014e)
 
