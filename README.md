@@ -6,7 +6,7 @@ Between the two of us, we were able to implement our knowledge to compose an ETL
 and Regular Expressions (REGEX) to extract and transform the data provided to us. We then created four csv files (found in the Resources folder), analyzed them, and created
 an ERD.png file and a table schema (crowdfunding_db_schema.sql) executed with SQL with the CSV files uploaded into our database.
 
-## Databases Created ##
+## DataFrames/Database Created ##
 1. Category DataFrame
 
    ![image](https://github.com/tonycota/Crowdfunding_ETL/assets/150317761/a5e18ab3-64f8-4672-b06a-fc62768957ba)
@@ -23,7 +23,7 @@ an ERD.png file and a table schema (crowdfunding_db_schema.sql) executed with SQ
    
    ![image](https://github.com/tonycota/Crowdfunding_ETL/assets/150317761/689da3a1-f847-4a17-9cdc-d8ce1caace04)
 
-* ERD (reference used to create database schema in pgAdmin)
+* ERD (reference used to create Crowdfunding Database by creating table schema in pgAdmin)
   
   ![image](https://github.com/tonycota/Crowdfunding_ETL/assets/150317761/c089d5e6-1ea3-44a5-9d5c-f31a4907014e)
 
