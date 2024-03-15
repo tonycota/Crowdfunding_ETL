@@ -88,7 +88,6 @@ The instructions for this mini project are divided into the following subsection
    * Convert the "contact_id" column to the integer type.
    * Split each "name" column value into a first and a last name, and place each in a new column.
    * Clean and then export the DataFrame as contacts.csv and save it to your GitHub repository.
-4. Check that your final DataFrame resembles the one in the following image:
 
 ### Create the Crowdfunding Database ### 
 1. Inspect the four CSV files, and then sketch an ERD of the tables by using QuickDBDLinks to an external site..
