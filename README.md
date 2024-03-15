@@ -22,18 +22,14 @@ The instructions for this mini project are divided into the following subsection
   * A "category_id" column that has entries going sequentially from "cat1" to "catn", where n is the number of unique categories
   * A "category" column that contains only the category titles
   * The following image shows this category DataFrame:
-
-category DataFrame
-
+![image](https://github.com/tonycota/Crowdfunding_ETL/assets/150317761/534aa110-6fae-445c-bf9b-7e0df2ec90fd)
 2. Export the category DataFrame as category.csv and save it to your GitHub repository.
 
 3. Extract and transform the crowdfunding.xlsx Excel data to create a subcategory DataFrame that has the following columns:
    * A "subcategory_id" column that has entries going sequentially from "subcat1" to "subcatn", where n is the number of unique subcategories
    * A "subcategory" column that contains only the subcategory titles
    * The following image shows this subcategory DataFrame:
-
-subcategory DataFrame
-
+![image](https://github.com/tonycota/Crowdfunding_ETL/assets/150317761/fb793618-a51e-48a9-8596-cb4a046e3118)
 4. Export the subcategory DataFrame as subcategory.csv and save it to your GitHub repository.
 
 ### Create the Campaign DataFrame ###
@@ -53,8 +49,7 @@ subcategory DataFrame
    * The "category_id" column, with unique identification numbers matching those in the "category_id" column of the category DataFrame
    * The "subcategory_id" column, with the unique identification numbers matching those in the "subcategory_id" column of the subcategory DataFrame
    * The following image shows this campaign DataFrame:
-
-campaign DataFrame
+![image](https://github.com/tonycota/Crowdfunding_ETL/assets/150317761/a927f7b8-9b77-418f-bd6e-64ab12f9a77e)
 2. Export the campaign DataFrame as campaign.csv and save it to your GitHub repository.
 
 ### Create the Contacts DataFrame ###
@@ -78,8 +73,7 @@ campaign DataFrame
    * Split each "name" column value into a first and a last name, and place each in a new column.
    * Clean and then export the DataFrame as contacts.csv and save it to your GitHub repository.
 4. Check that your final DataFrame resembles the one in the following image:
-
-final contact DataFrame
+![image](https://github.com/tonycota/Crowdfunding_ETL/assets/150317761/60eb9472-a6d8-4703-88a1-2eb225ef0789)
 
 ### Create the Crowdfunding Database ### 
 1. Inspect the four CSV files, and then sketch an ERD of the tables by using QuickDBDLinks to an external site..
@@ -91,3 +85,5 @@ final contact DataFrame
 6. Verify the table creation by running a SELECT statement for each table.
 7. Import each CSV file into its corresponding SQL table.
 8. Verify that each table has the correct data by running a SELECT statement for each.
+   * Below is an image of the ERD
+ ![image](https://github.com/tonycota/Crowdfunding_ETL/assets/150317761/d8efe048-9e9d-4ed6-bda4-af74c79c0190)
