@@ -1,5 +1,5 @@
-# Crowdfunding_ETL
-Ashley Nguyen's and Armando Cota's submission for Project #2 Crowdfunding ETL
+# Crowdfunding_ETL #
+### Ashley Nguyen's and Armando Cota's submission for Project #2 Crowdfunding ETL ###
 
 Within this repository you will find a Extract, Transform, and Load mini project executed by Ashley Nguyen and Armando Cota.
 Between the two of us, we were able to implement our knowledge to compose an ETL pipeline using Python, Pandas, Python dictionary methods
@@ -8,7 +8,7 @@ an ERD.png file and a table schema (crowdfunding_db_schema.sql) executed with SQ
 
 Below will be the instructions for the project that we were given:
 
-Instructions
+## Instructions ## 
 The instructions for this mini project are divided into the following subsections:
 
 Create the Category and Subcategory DataFrames
