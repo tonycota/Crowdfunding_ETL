@@ -22,7 +22,7 @@ The instructions for this mini project are divided into the following subsection
   * A "category_id" column that has entries going sequentially from "cat1" to "catn", where n is the number of unique categories
   * A "category" column that contains only the category titles
   * The following image shows this category DataFrame:
-  * 
+    
 ![image](https://github.com/tonycota/Crowdfunding_ETL/assets/150317761/534aa110-6fae-445c-bf9b-7e0df2ec90fd)
 
 2. Export the category DataFrame as category.csv and save it to your GitHub repository.
