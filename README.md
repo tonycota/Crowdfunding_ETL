@@ -6,34 +6,37 @@ Between the two of us, we were able to implement our knowledge to compose an ETL
 and Regular Expressions (REGEX) to extract and transform the data provided to us. We then created four csv files (found in the Resources folder), analyzed them, and created
 an ERD.png file and a table schema (crowdfunding_db_schema.sql) executed with SQL with the CSV files uploaded into our database.
 
-Below will be the instructions for the project that we were given:
+## Databases Created ##
+1. Category DataFrame
+   ![image](https://github.com/tonycota/Crowdfunding_ETL/assets/150317761/a5e18ab3-64f8-4672-b06a-fc62768957ba)
+
+3. Subcategory DataFrame
+   ![image](https://github.com/tonycota/Crowdfunding_ETL/assets/150317761/04b6f26a-84b5-4e29-94a2-e9095e1357dc)
+
+5. Campaign DataFrame
+   ![image](https://github.com/tonycota/Crowdfunding_ETL/assets/150317761/ec607e9b-8525-4484-9f9c-bb0ba1078396)
+6. Contacts DataFrame
+   ![image](https://github.com/tonycota/Crowdfunding_ETL/assets/150317761/689da3a1-f847-4a17-9cdc-d8ce1caace04)
+
+* ERD
+  ![image](https://github.com/tonycota/Crowdfunding_ETL/assets/150317761/9eb0c56f-a979-4385-8562-67d5eab52afe)
+
 
 ## Instructions ## 
 The instructions for this mini project are divided into the following subsections:
-
 * Create the Category and Subcategory DataFrames
 * Create the Campaign DataFrame
 * Create the Contacts DataFrame
 * Create the Crowdfunding Database
-
  
 ### Create the Category and Subcategory DataFrames ###
 1. Extract and transform the crowdfunding.xlsx Excel data to create a category DataFrame that has the following columns:
   * A "category_id" column that has entries going sequentially from "cat1" to "catn", where n is the number of unique categories
   * A "category" column that contains only the category titles
-  * The following image shows this category DataFrame:
-    
-![image](https://github.com/tonycota/Crowdfunding_ETL/assets/150317761/534aa110-6fae-445c-bf9b-7e0df2ec90fd)
-
 2. Export the category DataFrame as category.csv and save it to your GitHub repository.
-
 3. Extract and transform the crowdfunding.xlsx Excel data to create a subcategory DataFrame that has the following columns:
    * A "subcategory_id" column that has entries going sequentially from "subcat1" to "subcatn", where n is the number of unique subcategories
    * A "subcategory" column that contains only the subcategory titles
-   * The following image shows this subcategory DataFrame:
-     
-![image](https://github.com/tonycota/Crowdfunding_ETL/assets/150317761/fb793618-a51e-48a9-8596-cb4a046e3118)
-
 4. Export the subcategory DataFrame as subcategory.csv and save it to your GitHub repository.
 
 ### Create the Campaign DataFrame ###
@@ -52,10 +55,6 @@ The instructions for this mini project are divided into the following subsection
    * The "deadline" column, renamed to "end_date" and with the UTC times converted to the datetime format
    * The "category_id" column, with unique identification numbers matching those in the "category_id" column of the category DataFrame
    * The "subcategory_id" column, with the unique identification numbers matching those in the "subcategory_id" column of the subcategory DataFrame
-   * The following image shows this campaign DataFrame:
-     
-![image](https://github.com/tonycota/Crowdfunding_ETL/assets/150317761/a927f7b8-9b77-418f-bd6e-64ab12f9a77e)
-
 2. Export the campaign DataFrame as campaign.csv and save it to your GitHub repository.
 
 ### Create the Contacts DataFrame ###
@@ -79,8 +78,6 @@ The instructions for this mini project are divided into the following subsection
    * Split each "name" column value into a first and a last name, and place each in a new column.
    * Clean and then export the DataFrame as contacts.csv and save it to your GitHub repository.
 4. Check that your final DataFrame resembles the one in the following image:
-   
-![image](https://github.com/tonycota/Crowdfunding_ETL/assets/150317761/60eb9472-a6d8-4703-88a1-2eb225ef0789)
 
 ### Create the Crowdfunding Database ### 
 1. Inspect the four CSV files, and then sketch an ERD of the tables by using QuickDBDLinks to an external site..
@@ -92,6 +89,7 @@ The instructions for this mini project are divided into the following subsection
 6. Verify the table creation by running a SELECT statement for each table.
 7. Import each CSV file into its corresponding SQL table.
 8. Verify that each table has the correct data by running a SELECT statement for each.
-   * Below is an image of the ERD
-     
- ![image](https://github.com/tonycota/Crowdfunding_ETL/assets/150317761/d8efe048-9e9d-4ed6-bda4-af74c79c0190)
+
+## Sources of Data ##
+* contacts.xlsx
+* crowdfunding.xlsx
